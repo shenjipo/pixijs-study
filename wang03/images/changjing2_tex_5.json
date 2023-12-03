@@ -1,0 +1,152 @@
+{
+    "width": 2048,
+    "imagePath": "changjing2_tex_5.png",
+    "height": 2048,
+    "name": "changjing2",
+    "SubTexture": [
+        {
+            "frameY": -665,
+            "y": 314,
+            "frameWidth": 750,
+            "frameX": 0,
+            "frameHeight": 1083,
+            "width": 168,
+            "height": 282,
+            "name": "洪水 0000",
+            "x": 1791
+        },
+        {
+            "frameY": -491,
+            "y": 1482,
+            "frameWidth": 750,
+            "frameX": 0,
+            "frameHeight": 1083,
+            "width": 541,
+            "height": 456,
+            "name": "洪水 0001",
+            "x": 1039
+        },
+        {
+            "frameY": -203,
+            "y": 2,
+            "frameWidth": 750,
+            "frameX": 0,
+            "frameHeight": 1083,
+            "width": 750,
+            "height": 744,
+            "name": "洪水 0003",
+            "x": 1039
+        },
+        {
+            "width": 375,
+            "y": 748,
+            "height": 732,
+            "name": "玻璃破碎0021",
+            "x": 1039
+        },
+        {
+            "width": 375,
+            "y": 748,
+            "height": 732,
+            "name": "玻璃破碎0024",
+            "x": 1416
+        },
+        {
+            "width": 169,
+            "y": 2,
+            "height": 310,
+            "name": "黑背景",
+            "x": 1791
+        },
+        {
+            "frameY": -216,
+            "y": 1482,
+            "frameWidth": 412,
+            "frameX": 0,
+            "frameHeight": 684,
+            "width": 412,
+            "height": 468,
+            "name": "日历一",
+            "x": 1582
+        },
+        {
+            "width": 272,
+            "y": 1646,
+            "height": 391,
+            "name": "日历四",
+            "x": 626
+        },
+        {
+            "frameY": -922,
+            "y": 818,
+            "frameWidth": 750,
+            "frameX": -219,
+            "frameHeight": 1600,
+            "width": 234,
+            "height": 171,
+            "name": "学校飘落0045",
+            "x": 1793
+        },
+        {
+            "frameY": -125,
+            "y": 1208,
+            "frameWidth": 750,
+            "frameX": -134,
+            "frameHeight": 1600,
+            "width": 209,
+            "height": 173,
+            "name": "学校飘落0006",
+            "x": 1793
+        },
+        {
+            "frameY": -722,
+            "y": 598,
+            "frameWidth": 750,
+            "frameX": -559,
+            "frameHeight": 1600,
+            "width": 191,
+            "height": 218,
+            "name": "学校飘落0036",
+            "x": 1793
+        },
+        {
+            "frameY": -1264,
+            "y": 991,
+            "frameWidth": 750,
+            "frameX": -189,
+            "frameHeight": 1600,
+            "width": 179,
+            "height": 215,
+            "name": "学校飘落0060",
+            "x": 1793
+        },
+        {
+            "width": 622,
+            "y": 1646,
+            "height": 328,
+            "name": "跨年晚会_00002",
+            "x": 2
+        },
+        {
+            "width": 1035,
+            "y": 1098,
+            "height": 546,
+            "name": "山火0003",
+            "x": 2
+        },
+        {
+            "width": 1035,
+            "y": 2,
+            "height": 546,
+            "name": "山火0004",
+            "x": 2
+        },
+        {
+            "width": 1035,
+            "y": 550,
+            "height": 546,
+            "name": "山火0001",
+            "x": 2
+        }
+    ]
+}

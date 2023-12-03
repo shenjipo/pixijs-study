@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./style/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./style/main.css" rel="stylesheet" type="text/css" />
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/pixi.min.js"></script>
+    <script src="./js/Alloytouch.js"></script>
+    <script src="./js/TweenMax.min.js"></script>
+    <title>每个孩子都是父母眼中最亮的星星</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #stage1,
+        #stage2 {
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stage1-bottom {
+            display: flex;
+            justify-content: center;
+        }
+
+        #stage1 .stage1-button {
+            position: absolute;
+            bottom: 100px;
+            width: 100px;
+            height: 50px;
+            border-radius: 5px;
+            background-color: antiquewhite;
+            text-align: center;
+        }
+
+        .no-show {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="stage1">
+        <div class="stage1-bottom">
+            <div class="stage1-button">开始</div>
+        </div>
+
+    </div>
+
+    <div id="stage2" class="no-show">
+
+    </div>
+</body>
+
+<script>
+    let Application = PIXI.Application,
+        loader = PIXI.loader,
+        resources = PIXI.loader.resources,
+        Sprite = PIXI.Sprite;
+
+    //Create a Pixi Application
+    let app = null
+
+
+    //总时间轴
+
+    let imgs = []
+    for (let i = 2; i <= 38; i++) {
+        imgs.push(`imgs/download (${i}).jpeg`)
+    }
+    let sence2_imgs = []
+    PIXI.loader
+        .add("imgs/outside-bg.jpg")
+        .add(imgs)
+        .load(setup);
+    let [width, height] = [0, 0]
+    // 750 1620
+    function setup() {
+        console.log('done')
+        width = document.getElementById('stage1').clientWidth
+        height = document.getElementById('stage1').clientHeight
+        let offsetLeft = (750 - width) / 2
+        let offsetTop = (1620 - height) / 2
+        offsetLeft = parseInt(offsetLeft)
+        offsetTop = parseInt(offsetTop)
+
+
+        app = new PIXI.Application({
+            width: width,
+            height: height,
+            resizeTo: window.devicePixelRatio
+        })
+
+        document.getElementById('stage1').appendChild(app.view)
+
+        // 
+        let spriteGroupSences = new PIXI.Container()
+        spriteGroupSences.position.set(0, 0)
+        spriteGroupSences.name = 'spriteGroupSences'
+        app.stage.addChild(spriteGroupSences)
+        let sence1 = new PIXI.Container()
+        sence1.name = 'sence1'
+        sence1.position.set(0, 0)
+
+        let sence2 = new PIXI.Container()
+        sence2.position.set(0, 0)
+        sence2.name = 'sence2'
+
+        spriteGroupSences.addChild(sence1)
+        spriteGroupSences.addChild(sence2)
+
+        // 场景1  750 * 1620
+        let spr = new PIXI.Sprite.fromImage('imgs/outside-bg.jpg')
+        spr.position.set(0, 0)
+        spr.x = -offsetLeft
+        spr.y = -offsetTop
+        // spr.scale.set(width / 750, height / 1620)
+        spr.alpha = 1.0
+        spr.name = 'sence1'
+        let sprites = app.stage.getChildByName('spriteGroupSences').getChildByName('sence1')
+        sprites.addChild(spr)
+
+        console.log(app.loader.resources)
+    }
+
+    $('.stage1-button').on('click', () => {
+        $('#stage1').addClass('no-show')
+        $('#stage2').removeClass('no-show')
+        for (let i = 0; i < imgs.length; i++) {
+            let temp = new PIXI.Texture.fromImage(imgs[i])
+
+            sence2_imgs.push(temp);
+        }
+        document.getElementById('stage2').appendChild(app.view)
+        // 场景2 创建一个动画序列帧
+        let animatedSprite = new PIXI.extras.AnimatedSprite(sence2_imgs);
+        console.log(animatedSprite)
+        // 设置位置
+        animatedSprite.x = 0;
+        animatedSprite.y = 0;
+        animatedSprite.animationSpeed = 0.1; // 动画播放的速度，默认为1,每秒播放60张图片
+        animatedSprite.setTransform(0, 0, width / 750, height / 1620)
+        animatedSprite.loop = false; // 动画是否循环
+        animatedSprite.onComplete = () => {
+            console.log("播放完成");
+        }; // 动画完成的回调函数
+        let sprites2 = app.stage.getChildByName('spriteGroupSences').getChildByName('sence2')
+        sprites2.addChild(animatedSprite)
+        animatedSprite.gotoAndPlay(0); // 从第几帧开始播放
+    })
+</script>
+
+</html>

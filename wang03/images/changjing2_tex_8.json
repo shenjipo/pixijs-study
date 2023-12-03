@@ -1,0 +1,79 @@
+{
+    "width": 2048,
+    "imagePath": "changjing2_tex_8.png",
+    "height": 2048,
+    "name": "changjing2",
+    "SubTexture": [
+        {
+            "width": 622,
+            "y": 2,
+            "height": 328,
+            "name": "丰城_00001",
+            "x": 2
+        },
+        {
+            "frameY": -448,
+            "y": 332,
+            "frameWidth": 456,
+            "frameX": -10,
+            "frameHeight": 733,
+            "width": 446,
+            "height": 285,
+            "name": "涨满 0004",
+            "x": 488
+        },
+        {
+            "frameY": -337,
+            "y": 506,
+            "frameWidth": 456,
+            "frameX": 0,
+            "frameHeight": 733,
+            "width": 456,
+            "height": 396,
+            "name": "涨满 0005",
+            "x": 1586
+        },
+        {
+            "width": 334,
+            "y": 2,
+            "height": 575,
+            "name": "学校背景",
+            "x": 1250
+        },
+        {
+            "width": 364,
+            "y": 2,
+            "height": 502,
+            "name": "日历五",
+            "x": 1586
+        },
+        {
+            "width": 484,
+            "y": 332,
+            "height": 320,
+            "name": "日历六",
+            "x": 2
+        },
+        {
+            "width": 459,
+            "y": 579,
+            "height": 254,
+            "name": "电视框",
+            "x": 936
+        },
+        {
+            "width": 318,
+            "y": 619,
+            "height": 297,
+            "name": "门",
+            "x": 488
+        },
+        {
+            "width": 622,
+            "y": 2,
+            "height": 328,
+            "name": "跨年晚会_00003",
+            "x": 626
+        }
+    ]
+}

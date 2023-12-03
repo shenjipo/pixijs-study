@@ -1,0 +1,109 @@
+{
+    "width": 2048,
+    "imagePath": "changjing2_tex_1.png",
+    "height": 2048,
+    "name": "changjing2",
+    "SubTexture": [
+        {
+            "frameY": 0,
+            "y": 2,
+            "frameWidth": 574,
+            "frameX": 0,
+            "frameHeight": 767,
+            "width": 574,
+            "height": 622,
+            "name": "电视墙",
+            "x": 1424
+        },
+        {
+            "width": 805,
+            "y": 889,
+            "height": 792,
+            "name": "饭桌",
+            "x": 2
+        },
+        {
+            "frameY": -62,
+            "y": 2,
+            "frameWidth": 750,
+            "frameX": 0,
+            "frameHeight": 1083,
+            "width": 750,
+            "height": 885,
+            "name": "洪水 0004",
+            "x": 2
+        },
+        {
+            "frameY": -103,
+            "y": 1361,
+            "frameWidth": 456,
+            "frameX": 0,
+            "frameHeight": 733,
+            "width": 456,
+            "height": 630,
+            "name": "涨满 0007",
+            "x": 1579
+        },
+        {
+            "frameY": 0,
+            "y": 626,
+            "frameWidth": 456,
+            "frameX": -11,
+            "frameHeight": 733,
+            "width": 445,
+            "height": 733,
+            "name": "涨满 0009",
+            "x": 1579
+        },
+        {
+            "frameY": -68,
+            "y": 626,
+            "frameWidth": 128,
+            "frameX": 0,
+            "frameHeight": 501,
+            "width": 128,
+            "height": 355,
+            "name": "日历九",
+            "x": 1424
+        },
+        {
+            "width": 613,
+            "y": 2,
+            "height": 1007,
+            "name": "日历本",
+            "x": 809
+        },
+        {
+            "width": 768,
+            "y": 1011,
+            "height": 793,
+            "name": "高考变婚礼0006",
+            "x": 809
+        },
+        {
+            "width": 750,
+            "y": 1806,
+            "height": 166,
+            "name": "学校地面",
+            "x": 626
+        },
+        {
+            "frameY": -567,
+            "y": 1806,
+            "frameWidth": 750,
+            "frameX": -524,
+            "frameHeight": 1600,
+            "width": 195,
+            "height": 228,
+            "name": "学校飘落0024",
+            "x": 1378
+        },
+        {
+            "width": 622,
+            "y": 1683,
+            "height": 328,
+            "name": "新闻联播0001",
+            "x": 2
+        }
+    ]
+}

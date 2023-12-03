@@ -1,0 +1,154 @@
+{
+    "width": 2048,
+    "imagePath": "changjing2_tex_2.png",
+    "height": 2048,
+    "name": "changjing2",
+    "SubTexture": [
+        {
+            "frameY": -293,
+            "y": 1592,
+            "frameWidth": 1347,
+            "frameX": 0,
+            "frameHeight": 693,
+            "width": 1334,
+            "height": 325,
+            "name": "地面_00000",
+            "x": 2
+        },
+        {
+            "width": 622,
+            "y": 1592,
+            "height": 328,
+            "name": "丰城_00007",
+            "x": 1338
+        },
+        {
+            "frameY": -623,
+            "y": 1470,
+            "frameWidth": 456,
+            "frameX": -6,
+            "frameHeight": 733,
+            "width": 450,
+            "height": 110,
+            "name": "涨满 0002",
+            "x": 1542
+        },
+        {
+            "width": 375,
+            "y": 2,
+            "height": 732,
+            "name": "玻璃破碎0006",
+            "x": 1542
+        },
+        {
+            "width": 375,
+            "y": 736,
+            "height": 732,
+            "name": "玻璃破碎0036",
+            "x": 1542
+        },
+        {
+            "width": 768,
+            "y": 2,
+            "height": 793,
+            "name": "高考变婚礼0008",
+            "x": 2
+        },
+        {
+            "width": 768,
+            "y": 797,
+            "height": 793,
+            "name": "高考变婚礼0002",
+            "x": 772
+        },
+        {
+            "width": 768,
+            "y": 797,
+            "height": 793,
+            "name": "高考变婚礼0003",
+            "x": 2
+        },
+        {
+            "width": 768,
+            "y": 2,
+            "height": 793,
+            "name": "高考变婚礼0007",
+            "x": 772
+        },
+        {
+            "width": 328,
+            "y": 1919,
+            "height": 110,
+            "name": "变日期0009",
+            "x": 662
+        },
+        {
+            "width": 328,
+            "y": 1922,
+            "height": 110,
+            "name": "变日期0001",
+            "x": 1652
+        },
+        {
+            "width": 328,
+            "y": 1919,
+            "height": 110,
+            "name": "变日期0002",
+            "x": 2
+        },
+        {
+            "width": 328,
+            "y": 1919,
+            "height": 110,
+            "name": "变日期0000",
+            "x": 332
+        },
+        {
+            "width": 328,
+            "y": 1922,
+            "height": 110,
+            "name": "变日期0008",
+            "x": 1322
+        },
+        {
+            "width": 328,
+            "y": 1919,
+            "height": 110,
+            "name": "变日期0007",
+            "x": 992
+        },
+        {
+            "frameY": -1053,
+            "y": 507,
+            "frameWidth": 750,
+            "frameX": -175,
+            "frameHeight": 1600,
+            "width": 99,
+            "height": 207,
+            "name": "学校飘落0054",
+            "x": 1919
+        },
+        {
+            "frameY": -1139,
+            "y": 280,
+            "frameWidth": 750,
+            "frameX": -177,
+            "frameHeight": 1600,
+            "width": 116,
+            "height": 225,
+            "name": "学校飘落0057",
+            "x": 1919
+        },
+        {
+            "frameY": -620,
+            "y": 2,
+            "frameWidth": 750,
+            "frameX": -644,
+            "frameHeight": 1600,
+            "width": 106,
+            "height": 276,
+            "name": "学校飘落0030",
+            "x": 1919
+        }
+    ]
+}

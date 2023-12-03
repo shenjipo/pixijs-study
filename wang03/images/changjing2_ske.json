@@ -1,0 +1,3229 @@
+{
+    "frameRate": 24,
+    "name": "changjing2",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Armature",
+            "frameRate": 24,
+            "name": "Armature2",
+            "aabb": {
+                "x": -375.45,
+                "y": -873.66,
+                "width": 3979.01,
+                "height": 1729.69
+            },
+            "bone": [
+                {
+                    "name": "root"
+                },
+                {
+                    "name": "小人",
+                    "parent": "root"
+                },
+                {
+                    "name": "地面大",
+                    "parent": "root"
+                },
+                {
+                    "name": "电视墙",
+                    "parent": "root",
+                    "transform": {
+                        "x": 2915
+                    }
+                },
+                {
+                    "name": "bone5",
+                    "parent": "root"
+                },
+                {
+                    "name": "学校背景",
+                    "parent": "root"
+                },
+                {
+                    "name": "bone3",
+                    "parent": "root"
+                },
+                {
+                    "name": "背景",
+                    "parent": "root"
+                },
+                {
+                    "name": "日历本",
+                    "parent": "root"
+                },
+                {
+                    "name": "学校",
+                    "parent": "root",
+                    "transform": {
+                        "y": 105.2819
+                    }
+                },
+                {
+                    "name": "飘落",
+                    "parent": "root"
+                },
+                {
+                    "name": "玻璃",
+                    "parent": "root"
+                },
+                {
+                    "name": "1464",
+                    "parent": "root"
+                },
+                {
+                    "name": "电视",
+                    "parent": "电视墙",
+                    "transform": {
+                        "x": 101.98,
+                        "y": -145.6541,
+                        "scX": 0.66,
+                        "scY": 0.66
+                    }
+                },
+                {
+                    "name": "bone1",
+                    "parent": "电视墙",
+                    "transform": {
+                        "x": 105
+                    }
+                },
+                {
+                    "name": "照片",
+                    "parent": "日历本",
+                    "transform": {
+                        "x": 65.7564,
+                        "y": -150.0563
+                    }
+                },
+                {
+                    "name": "bone4",
+                    "parent": "电视墙",
+                    "transform": {
+                        "x": -2915,
+                        "scX": 0.66,
+                        "scY": 0.66
+                    }
+                },
+                {
+                    "name": "破碎",
+                    "parent": "玻璃"
+                },
+                {
+                    "name": "日期",
+                    "parent": "日历本",
+                    "transform": {
+                        "x": 55.9966,
+                        "y": 161.28
+                    }
+                },
+                {
+                    "name": "地面",
+                    "parent": "地面大",
+                    "transform": {
+                        "x": 1761.8236,
+                        "y": 741.5712
+                    }
+                },
+                {
+                    "name": "门墙",
+                    "parent": "学校"
+                },
+                {
+                    "name": "bone",
+                    "parent": "电视墙"
+                },
+                {
+                    "name": "教学楼",
+                    "parent": "门墙",
+                    "transform": {
+                        "x": -11.9245,
+                        "y": -12.8634
+                    }
+                },
+                {
+                    "name": "换频道",
+                    "parent": "电视",
+                    "transform": {
+                        "x": -154.5152,
+                        "y": 220.688,
+                        "scX": 1.5152,
+                        "scY": 1.5152
+                    }
+                },
+                {
+                    "name": "bone6",
+                    "parent": "电视"
+                },
+                {
+                    "name": "洪水",
+                    "parent": "电视",
+                    "transform": {
+                        "y": -226.1414,
+                        "scX": 0.83,
+                        "scY": 0.83
+                    }
+                },
+                {
+                    "name": "日历",
+                    "parent": "破碎"
+                },
+                {
+                    "name": "门右",
+                    "parent": "门墙",
+                    "transform": {
+                        "x": 160.8317,
+                        "y": 329.0401
+                    }
+                },
+                {
+                    "name": "封城",
+                    "parent": "电视"
+                },
+                {
+                    "name": "新闻",
+                    "parent": "电视"
+                },
+                {
+                    "name": "bone2",
+                    "parent": "破碎",
+                    "transform": {
+                        "scX": 2,
+                        "scY": 2
+                    }
+                },
+                {
+                    "name": "门左",
+                    "parent": "门墙",
+                    "transform": {
+                        "x": -156.926,
+                        "y": 330.7901,
+                        "scX": -1
+                    }
+                },
+                {
+                    "name": "日历九",
+                    "parent": "日历"
+                },
+                {
+                    "name": "日历三",
+                    "parent": "日历"
+                },
+                {
+                    "name": "日历二",
+                    "parent": "日历"
+                },
+                {
+                    "name": "涨水",
+                    "parent": "洪水",
+                    "transform": {
+                        "y": 211.93
+                    }
+                },
+                {
+                    "name": "日历五",
+                    "parent": "日历"
+                },
+                {
+                    "name": "日历八",
+                    "parent": "日历"
+                },
+                {
+                    "name": "日历四",
+                    "parent": "日历"
+                },
+                {
+                    "name": "日历十",
+                    "parent": "日历"
+                },
+                {
+                    "name": "日历六",
+                    "parent": "日历"
+                },
+                {
+                    "name": "日历七",
+                    "parent": "日历"
+                },
+                {
+                    "name": "日历一",
+                    "parent": "日历"
+                },
+                {
+                    "name": "黑背景",
+                    "parent": "日历"
+                }
+            ],
+            "slot": [
+                {
+                    "name": "家背景",
+                    "parent": "背景"
+                },
+                {
+                    "name": "地面_00000",
+                    "parent": "地面"
+                },
+                {
+                    "name": "电视1",
+                    "parent": "电视"
+                },
+                {
+                    "name": "电视墙",
+                    "parent": "bone1"
+                },
+                {
+                    "name": "饭桌",
+                    "parent": "bone"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "root",
+                    "parent": "小人"
+                },
+                {
+                    "name": "root1",
+                    "parent": "bone6",
+                    "actions": [
+                        {
+                            "gotoAndPlay": "Sprite"
+                        }
+                    ]
+                },
+                {
+                    "name": "xinwen",
+                    "parent": "新闻"
+                },
+                {
+                    "displayIndex": 8,
+                    "name": "封城",
+                    "parent": "封城"
+                },
+                {
+                    "displayIndex": 8,
+                    "name": "洪水",
+                    "parent": "洪水"
+                },
+                {
+                    "displayIndex": 9,
+                    "name": "洪水1",
+                    "parent": "涨水"
+                },
+                {
+                    "displayIndex": 19,
+                    "name": "破碎",
+                    "parent": "bone2"
+                },
+                {
+                    "name": "黑背景",
+                    "parent": "黑背景"
+                },
+                {
+                    "name": "学校背景",
+                    "parent": "学校背景"
+                },
+                {
+                    "name": "日历一",
+                    "parent": "日历一"
+                },
+                {
+                    "name": "日历七",
+                    "parent": "日历七"
+                },
+                {
+                    "name": "日历三",
+                    "parent": "日历三"
+                },
+                {
+                    "name": "日历九",
+                    "parent": "日历九"
+                },
+                {
+                    "name": "日历二",
+                    "parent": "日历二"
+                },
+                {
+                    "name": "日历五",
+                    "parent": "日历五"
+                },
+                {
+                    "name": "日历八",
+                    "parent": "日历八"
+                },
+                {
+                    "name": "日历六",
+                    "parent": "日历六"
+                },
+                {
+                    "name": "日历四",
+                    "parent": "日历四"
+                },
+                {
+                    "name": "日历十",
+                    "parent": "日历十"
+                },
+                {
+                    "displayIndex": 19,
+                    "name": "破碎1",
+                    "parent": "bone5"
+                },
+                {
+                    "name": "电视框",
+                    "parent": "电视"
+                },
+                {
+                    "name": "日历本",
+                    "parent": "日历本"
+                },
+                {
+                    "displayIndex": 9,
+                    "name": "照片",
+                    "parent": "照片"
+                },
+                {
+                    "displayIndex": 9,
+                    "name": "日期",
+                    "parent": "日期"
+                },
+                {
+                    "name": "教学楼",
+                    "parent": "教学楼"
+                },
+                {
+                    "name": "门墙右后",
+                    "parent": "门墙"
+                },
+                {
+                    "name": "门墙左后",
+                    "parent": "门墙"
+                },
+                {
+                    "name": "门1",
+                    "parent": "门左"
+                },
+                {
+                    "name": "门",
+                    "parent": "门右"
+                },
+                {
+                    "name": "门墙左前",
+                    "parent": "门墙"
+                },
+                {
+                    "name": "门墙右前",
+                    "parent": "门墙"
+                },
+                {
+                    "name": "学校地面",
+                    "parent": "学校"
+                },
+                {
+                    "displayIndex": 23,
+                    "name": "飘落",
+                    "parent": "飘落"
+                },
+                {
+                    "name": "封边",
+                    "parent": "1464"
+                },
+                {
+                    "name": "封边1",
+                    "parent": "1464"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "饭桌",
+                            "display": [
+                                {
+                                    "name": "饭桌",
+                                    "transform": {
+                                        "x": 96.92,
+                                        "y": 364.26
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历十",
+                            "display": [
+                                {
+                                    "name": "日历十"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "黑背景",
+                            "display": [
+                                {
+                                    "name": "黑背景",
+                                    "transform": {
+                                        "scX": 4.95,
+                                        "scY": 4.95
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历本",
+                            "display": [
+                                {
+                                    "name": "日历本",
+                                    "transform": {
+                                        "x": 69.05
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "电视框",
+                            "display": [
+                                {
+                                    "name": "电视框",
+                                    "transform": {
+                                        "scX": 1.46,
+                                        "scY": 1.46
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "学校背景",
+                            "display": [
+                                {
+                                    "name": "学校背景",
+                                    "transform": {
+                                        "x": 0.35,
+                                        "y": 8.87,
+                                        "scX": 5.35,
+                                        "scY": 5.35
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历七",
+                            "display": [
+                                {
+                                    "name": "日历七"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "封边",
+                            "display": [
+                                {
+                                    "name": "封边",
+                                    "transform": {
+                                        "y": 754.45,
+                                        "scX": 13.9
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "破碎1",
+                            "display": [
+                                {
+                                    "name": "玻璃破碎0057"
+                                },
+                                {
+                                    "name": "玻璃破碎0054"
+                                },
+                                {
+                                    "name": "玻璃破碎0051"
+                                },
+                                {
+                                    "name": "玻璃破碎0048"
+                                },
+                                {
+                                    "name": "玻璃破碎0045"
+                                },
+                                {
+                                    "name": "玻璃破碎0042"
+                                },
+                                {
+                                    "name": "玻璃破碎0039"
+                                },
+                                {
+                                    "name": "玻璃破碎0036"
+                                },
+                                {
+                                    "name": "玻璃破碎0033"
+                                },
+                                {
+                                    "name": "玻璃破碎0030"
+                                },
+                                {
+                                    "name": "玻璃破碎0027"
+                                },
+                                {
+                                    "name": "玻璃破碎0024"
+                                },
+                                {
+                                    "name": "玻璃破碎0021"
+                                },
+                                {
+                                    "name": "玻璃破碎0018"
+                                },
+                                {
+                                    "name": "玻璃破碎0015"
+                                },
+                                {
+                                    "name": "玻璃破碎0012"
+                                },
+                                {
+                                    "name": "玻璃破碎0009"
+                                },
+                                {
+                                    "name": "玻璃破碎0006"
+                                },
+                                {
+                                    "name": "玻璃破碎0003"
+                                },
+                                {
+                                    "name": "玻璃破碎0000",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日期",
+                            "display": [
+                                {
+                                    "name": "变日期0009"
+                                },
+                                {
+                                    "name": "变日期0008"
+                                },
+                                {
+                                    "name": "变日期0007"
+                                },
+                                {
+                                    "name": "变日期0006"
+                                },
+                                {
+                                    "name": "变日期0005"
+                                },
+                                {
+                                    "name": "变日期0004"
+                                },
+                                {
+                                    "name": "变日期0003"
+                                },
+                                {
+                                    "name": "变日期0002"
+                                },
+                                {
+                                    "name": "变日期0001"
+                                },
+                                {
+                                    "name": "变日期0000"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历三",
+                            "display": [
+                                {
+                                    "name": "日历三"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历六",
+                            "display": [
+                                {
+                                    "name": "日历六"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "家背景",
+                            "display": [
+                                {
+                                    "name": "家背景",
+                                    "transform": {
+                                        "scX": 5.2,
+                                        "scY": 5.2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "电视1",
+                            "display": [
+                                {
+                                    "name": "电视",
+                                    "transform": {
+                                        "x": -1.39,
+                                        "y": 6.06,
+                                        "scX": 0.98,
+                                        "scY": 0.98
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "破碎",
+                            "display": [
+                                {
+                                    "name": "玻璃破碎0057"
+                                },
+                                {
+                                    "name": "玻璃破碎0054"
+                                },
+                                {
+                                    "name": "玻璃破碎0051"
+                                },
+                                {
+                                    "name": "玻璃破碎0048"
+                                },
+                                {
+                                    "name": "玻璃破碎0045"
+                                },
+                                {
+                                    "name": "玻璃破碎0042"
+                                },
+                                {
+                                    "name": "玻璃破碎0039"
+                                },
+                                {
+                                    "name": "玻璃破碎0036"
+                                },
+                                {
+                                    "name": "玻璃破碎0033"
+                                },
+                                {
+                                    "name": "玻璃破碎0030"
+                                },
+                                {
+                                    "name": "玻璃破碎0027"
+                                },
+                                {
+                                    "name": "玻璃破碎0024"
+                                },
+                                {
+                                    "name": "玻璃破碎0021"
+                                },
+                                {
+                                    "name": "玻璃破碎0018"
+                                },
+                                {
+                                    "name": "玻璃破碎0015"
+                                },
+                                {
+                                    "name": "玻璃破碎0012"
+                                },
+                                {
+                                    "name": "玻璃破碎0009"
+                                },
+                                {
+                                    "name": "玻璃破碎0006"
+                                },
+                                {
+                                    "name": "玻璃破碎0003"
+                                },
+                                {
+                                    "name": "玻璃破碎0000",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历二",
+                            "display": [
+                                {
+                                    "name": "日历二"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历八",
+                            "display": [
+                                {
+                                    "name": "日历八"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门墙左前",
+                            "display": [
+                                {
+                                    "name": "门墙左前",
+                                    "transform": {
+                                        "x": -345.5,
+                                        "y": 390.44
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "电视墙",
+                            "display": [
+                                {
+                                    "name": "电视墙",
+                                    "transform": {
+                                        "x": -105,
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "root1",
+                            "display": [
+                                {
+                                    "type": "armature",
+                                    "name": "Sprite_1",
+                                    "path": "Sprite"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "飘落",
+                            "display": [
+                                {
+                                    "name": "学校飘落0069"
+                                },
+                                {
+                                    "name": "学校飘落0066"
+                                },
+                                {
+                                    "name": "学校飘落0063"
+                                },
+                                {
+                                    "name": "学校飘落0060"
+                                },
+                                {
+                                    "name": "学校飘落0057"
+                                },
+                                {
+                                    "name": "学校飘落0054"
+                                },
+                                {
+                                    "name": "学校飘落0051"
+                                },
+                                {
+                                    "name": "学校飘落0048"
+                                },
+                                {
+                                    "name": "学校飘落0045"
+                                },
+                                {
+                                    "name": "学校飘落0042"
+                                },
+                                {
+                                    "name": "学校飘落0039"
+                                },
+                                {
+                                    "name": "学校飘落0036"
+                                },
+                                {
+                                    "name": "学校飘落0033"
+                                },
+                                {
+                                    "name": "学校飘落0030"
+                                },
+                                {
+                                    "name": "学校飘落0027"
+                                },
+                                {
+                                    "name": "学校飘落0024"
+                                },
+                                {
+                                    "name": "学校飘落0021"
+                                },
+                                {
+                                    "name": "学校飘落0018"
+                                },
+                                {
+                                    "name": "学校飘落0015"
+                                },
+                                {
+                                    "name": "学校飘落0012"
+                                },
+                                {
+                                    "name": "学校飘落0009"
+                                },
+                                {
+                                    "name": "学校飘落0006"
+                                },
+                                {
+                                    "name": "学校飘落0003"
+                                },
+                                {
+                                    "name": "学校飘落0000"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "照片",
+                            "display": [
+                                {
+                                    "name": "高考变婚礼0009"
+                                },
+                                {
+                                    "name": "高考变婚礼0008"
+                                },
+                                {
+                                    "name": "高考变婚礼0007"
+                                },
+                                {
+                                    "name": "高考变婚礼0006"
+                                },
+                                {
+                                    "name": "高考变婚礼0005"
+                                },
+                                {
+                                    "name": "高考变婚礼0004"
+                                },
+                                {
+                                    "name": "高考变婚礼0003"
+                                },
+                                {
+                                    "name": "高考变婚礼0002"
+                                },
+                                {
+                                    "name": "高考变婚礼0001"
+                                },
+                                {
+                                    "name": "高考变婚礼0000"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "封城",
+                            "display": [
+                                {
+                                    "name": "丰城_00008"
+                                },
+                                {
+                                    "name": "丰城_00007"
+                                },
+                                {
+                                    "name": "丰城_00006"
+                                },
+                                {
+                                    "name": "丰城_00005"
+                                },
+                                {
+                                    "name": "丰城_00004"
+                                },
+                                {
+                                    "name": "丰城_00003"
+                                },
+                                {
+                                    "name": "丰城_00002"
+                                },
+                                {
+                                    "name": "丰城_00001"
+                                },
+                                {
+                                    "name": "丰城_00000"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "xinwen",
+                            "display": [
+                                {
+                                    "type": "armature",
+                                    "name": "xinwen"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门墙右后",
+                            "display": [
+                                {
+                                    "name": "门墙右后",
+                                    "transform": {
+                                        "x": 320.06,
+                                        "y": 308.39
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门",
+                            "display": [
+                                {
+                                    "name": "门"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历一",
+                            "display": [
+                                {
+                                    "name": "日历一"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地面_00000",
+                            "display": [
+                                {
+                                    "name": "地面_00000",
+                                    "transform": {
+                                        "x": 876.06,
+                                        "y": -232.04,
+                                        "scX": 4,
+                                        "scY": 4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "封边1",
+                            "display": [
+                                {
+                                    "name": "封边",
+                                    "transform": {
+                                        "y": -756.95,
+                                        "scX": 19.85
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "洪水1",
+                            "display": [
+                                {
+                                    "name": "涨满 0009",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0008",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0007",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0006",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0005",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0004",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0003",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0002",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0001",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                },
+                                {
+                                    "name": "涨满 0000",
+                                    "transform": {
+                                        "scX": 2,
+                                        "scY": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "洪水",
+                            "display": [
+                                {
+                                    "name": "洪水 0008"
+                                },
+                                {
+                                    "name": "洪水 0007"
+                                },
+                                {
+                                    "name": "洪水 0006"
+                                },
+                                {
+                                    "name": "洪水 0005"
+                                },
+                                {
+                                    "name": "洪水 0004"
+                                },
+                                {
+                                    "name": "洪水 0003"
+                                },
+                                {
+                                    "name": "洪水 0002"
+                                },
+                                {
+                                    "name": "洪水 0001"
+                                },
+                                {
+                                    "name": "洪水 0000"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门墙左后",
+                            "display": [
+                                {
+                                    "name": "门墙左后",
+                                    "transform": {
+                                        "x": -0.45,
+                                        "y": -170.4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门墙右前",
+                            "display": [
+                                {
+                                    "name": "门墙右前",
+                                    "transform": {
+                                        "x": 348.39,
+                                        "y": 289
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历九",
+                            "display": [
+                                {
+                                    "name": "日历九"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历四",
+                            "display": [
+                                {
+                                    "name": "日历四"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "root",
+                            "display": [
+                                {
+                                    "name": "xiaoren0012"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历五",
+                            "display": [
+                                {
+                                    "name": "日历五"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "教学楼",
+                            "display": [
+                                {
+                                    "name": "教学楼"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门1",
+                            "display": [
+                                {
+                                    "name": "门"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "学校地面",
+                            "display": [
+                                {
+                                    "name": "学校地面",
+                                    "transform": {
+                                        "y": 545.92
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 319,
+                    "playTimes": 0,
+                    "name": "newAnimation",
+                    "bone": [
+                        {
+                            "name": "地面",
+                            "translateFrame": [
+                                {
+                                    "duration": 319,
+                                    "x": -2918.8,
+                                    "y": 435.67
+                                }
+                            ],
+                            "rotateFrame": [
+                                {
+                                    "duration": 319,
+                                    "rotate": -27
+                                }
+                            ]
+                        },
+                        {
+                            "name": "电视墙",
+                            "translateFrame": [
+                                {
+                                    "duration": 319,
+                                    "x": -3020,
+                                    "y": -29.75
+                                }
+                            ]
+                        },
+                        {
+                            "name": "小人",
+                            "translateFrame": [
+                                {
+                                    "duration": 9,
+                                    "tweenEasing": 0,
+                                    "x": -112.61,
+                                    "y": 482.78
+                                },
+                                {
+                                    "duration": 21,
+                                    "tweenEasing": 0,
+                                    "x": -112.61,
+                                    "y": 482.78
+                                },
+                                {
+                                    "duration": 289,
+                                    "x": -849.23,
+                                    "y": 2155.03
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 9
+                                },
+                                {
+                                    "duration": 21,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 289,
+                                    "x": 2.5,
+                                    "y": 2.5
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地面大",
+                            "translateFrame": [
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "y": 11.4
+                                },
+                                {
+                                    "duration": 21,
+                                    "tweenEasing": 0,
+                                    "y": 11.4
+                                },
+                                {
+                                    "duration": 288,
+                                    "y": 867.71
+                                }
+                            ]
+                        },
+                        {
+                            "name": "电视",
+                            "translateFrame": [
+                                {
+                                    "duration": 9
+                                },
+                                {
+                                    "duration": 21,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.13609841701560416,
+                                        -0.002980699007090748,
+                                        0.3087125365853659,
+                                        0.279615403508772,
+                                        0.5825146341463416,
+                                        0.7278719298245615,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "duration": 289,
+                                    "x": 3,
+                                    "y": 167.2
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 9
+                                },
+                                {
+                                    "duration": 21,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.13609841701560416,
+                                        -0.002980699007090748,
+                                        0.3087125365853659,
+                                        0.279615403508772,
+                                        0.5825146341463416,
+                                        0.7278719298245615,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "duration": 289,
+                                    "x": 1.83,
+                                    "y": 1.83
+                                }
+                            ]
+                        },
+                        {
+                            "name": "bone",
+                            "translateFrame": [
+                                {
+                                    "duration": 9
+                                },
+                                {
+                                    "duration": 21,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 289,
+                                    "x": -157.96,
+                                    "y": 755.45
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 9
+                                },
+                                {
+                                    "duration": 21,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 289,
+                                    "x": 2.95,
+                                    "y": 2.95
+                                }
+                            ]
+                        },
+                        {
+                            "name": "bone1",
+                            "translateFrame": [
+                                {
+                                    "duration": 9
+                                },
+                                {
+                                    "duration": 21,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 289,
+                                    "x": 63.84,
+                                    "y": -186.65
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 9
+                                },
+                                {
+                                    "duration": 21,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 289,
+                                    "x": 2.3,
+                                    "y": 2.3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "洪水",
+                            "translateFrame": [
+                                {
+                                    "duration": 101
+                                },
+                                {
+                                    "duration": 218,
+                                    "y": 55.62
+                                }
+                            ]
+                        },
+                        {
+                            "name": "破碎",
+                            "scaleFrame": [
+                                {
+                                    "duration": 154
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "x": 1.05,
+                                    "y": 1.05
+                                },
+                                {
+                                    "duration": 153
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历一",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": 168.46,
+                                    "y": -389.71
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": 168.46,
+                                    "y": -687.39
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": 168.46,
+                                    "y": -332.77
+                                },
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ],
+                                    "x": 168.46,
+                                    "y": -178.32
+                                },
+                                {
+                                    "duration": 83,
+                                    "x": 168.46,
+                                    "y": -2494.33
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历二",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": 259.76,
+                                    "y": 26.43
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": 259.76,
+                                    "y": -30.21
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": 259.76,
+                                    "y": 25.77
+                                },
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ],
+                                    "x": 259.76,
+                                    "y": 76.7
+                                },
+                                {
+                                    "duration": 83,
+                                    "x": 259.76,
+                                    "y": -1581.51
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历三",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": -80.54,
+                                    "y": -582.22
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": -80.54,
+                                    "y": -638.03
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": -80.54,
+                                    "y": -424.85
+                                },
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ],
+                                    "x": -80.54,
+                                    "y": -331.02
+                                },
+                                {
+                                    "duration": 83,
+                                    "x": -80.54,
+                                    "y": -946.55
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历四",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": 238.26,
+                                    "y": 536.14
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": 238.26,
+                                    "y": 476.5
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": 238.26,
+                                    "y": 548.42
+                                },
+                                {
+                                    "duration": 8,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ],
+                                    "x": 238.26,
+                                    "y": 620.67
+                                },
+                                {
+                                    "duration": 81,
+                                    "x": 238.26,
+                                    "y": -2622.12
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历五",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": -75.69,
+                                    "y": -52.84
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": -75.69,
+                                    "y": -215.38
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": -75.69,
+                                    "y": -53.5
+                                },
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ],
+                                    "x": -75.69,
+                                    "y": 38.83
+                                },
+                                {
+                                    "duration": 83,
+                                    "x": -75.69,
+                                    "y": -2591.99
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历六",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": 71.03,
+                                    "y": 637.6
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": 71.03,
+                                    "y": 504.99
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": 71.03,
+                                    "y": 920.62
+                                },
+                                {
+                                    "duration": 89,
+                                    "x": 71.03,
+                                    "y": 950.82
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历七",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": 168.46,
+                                    "y": -389.71
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": -137.22,
+                                    "y": 630.46
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": -137.22,
+                                    "y": 820.46
+                                },
+                                {
+                                    "duration": 89,
+                                    "x": -137.22,
+                                    "y": 884.27
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历八",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": -324.84,
+                                    "y": 376.38
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": -324.84,
+                                    "y": 275.81
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": -324.84,
+                                    "y": 345.81
+                                },
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ],
+                                    "x": -324.84,
+                                    "y": 419.62
+                                },
+                                {
+                                    "duration": 83,
+                                    "x": -324.84,
+                                    "y": -1051.51
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历九",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": -311.13,
+                                    "y": -120.86
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": -311.13,
+                                    "y": -344.12
+                                },
+                                {
+                                    "duration": 37,
+                                    "tweenEasing": 0,
+                                    "x": -311.13,
+                                    "y": -249.87
+                                },
+                                {
+                                    "duration": 6,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ],
+                                    "x": -311.13,
+                                    "y": -166.05
+                                },
+                                {
+                                    "duration": 83,
+                                    "x": -311.13,
+                                    "y": -1269.59
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历十",
+                            "translateFrame": [
+                                {
+                                    "duration": 180,
+                                    "tweenEasing": 0,
+                                    "x": -311.13,
+                                    "y": -120.86
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.29381463414634146,
+                                        -0.006442105263157832,
+                                        0.5334306341463415,
+                                        0.23317389473684216,
+                                        0.7414634146341463,
+                                        0.44120667522464696,
+                                        1,
+                                        1
+                                    ],
+                                    "x": -22.85,
+                                    "y": 192.42
+                                },
+                                {
+                                    "duration": 36,
+                                    "tweenEasing": 0,
+                                    "x": -22.85,
+                                    "y": 458.51
+                                },
+                                {
+                                    "duration": 9,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ],
+                                    "x": -22.85,
+                                    "y": 565.66
+                                },
+                                {
+                                    "duration": 81,
+                                    "x": -22.85,
+                                    "y": -1927.1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "bone5",
+                            "scaleFrame": [
+                                {
+                                    "duration": 165
+                                },
+                                {
+                                    "duration": 19,
+                                    "tweenEasing": 0,
+                                    "x": 2,
+                                    "y": 2
+                                },
+                                {
+                                    "duration": 135,
+                                    "x": 4.5,
+                                    "y": 4.5
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历本",
+                            "translateFrame": [
+                                {
+                                    "duration": 187,
+                                    "tweenEasing": 0,
+                                    "x": 629.38,
+                                    "y": -397.71
+                                },
+                                {
+                                    "duration": 9,
+                                    "tweenEasing": 0,
+                                    "x": 629.38,
+                                    "y": -397.71
+                                },
+                                {
+                                    "duration": 32,
+                                    "tweenEasing": 0,
+                                    "x": 74.05,
+                                    "y": -46.79
+                                },
+                                {
+                                    "duration": 7,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.2516740914634147,
+                                        0.17366810087719303,
+                                        0.44052526737804887,
+                                        0.5038971116228071,
+                                        0.5798266503264988,
+                                        0.7474823456769305,
+                                        0.8248145121951219,
+                                        0.9525423684210526
+                                    ]
+                                },
+                                {
+                                    "duration": 84,
+                                    "y": -1382.28
+                                }
+                            ]
+                        },
+                        {
+                            "name": "照片",
+                            "translateFrame": [
+                                {
+                                    "duration": 319,
+                                    "x": 7.84,
+                                    "y": 5.97
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 319,
+                                    "x": 0.66,
+                                    "y": 0.66
+                                }
+                            ]
+                        },
+                        {
+                            "name": "学校",
+                            "translateFrame": [
+                                {
+                                    "duration": 244,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.11215609756097562,
+                                        0.25152280701754387,
+                                        0.2514200975609756,
+                                        0.39078680701754387,
+                                        0.5473560975609756,
+                                        0.6867228070175438,
+                                        1,
+                                        1
+                                    ],
+                                    "y": 1339.78
+                                },
+                                {
+                                    "duration": 35,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.1677781467275949,
+                                        0.3902903783990437,
+                                        0.2562981463414634,
+                                        0.5662254035087719,
+                                        0.44491707317073176,
+                                        0.9411087719298246,
+                                        1,
+                                        1
+                                    ],
+                                    "y": 1339.78
+                                },
+                                {
+                                    "duration": 40
+                                }
+                            ]
+                        },
+                        {
+                            "name": "飘落",
+                            "translateFrame": [
+                                {
+                                    "duration": 239
+                                },
+                                {
+                                    "duration": 32,
+                                    "tweenEasing": 0,
+                                    "y": 75.64
+                                },
+                                {
+                                    "duration": 48,
+                                    "y": -71.84
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门墙",
+                            "translateFrame": [
+                                {
+                                    "duration": 277,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.19795246200843936,
+                                        0.14896299132115012,
+                                        0.28237653658536593,
+                                        0.31643729824561406,
+                                        0.5726804878048781,
+                                        0.8923210526315791,
+                                        1,
+                                        1
+                                    ],
+                                    "y": 394.31
+                                },
+                                {
+                                    "duration": 13,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.19795246200843936,
+                                        0.14896299132115012,
+                                        0.28237653658536593,
+                                        0.31643729824561406,
+                                        0.5726804878048781,
+                                        0.8923210526315791,
+                                        1,
+                                        1
+                                    ],
+                                    "y": 394.31
+                                },
+                                {
+                                    "duration": 29
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门右",
+                            "translateFrame": [
+                                {
+                                    "duration": 308,
+                                    "tweenEasing": 0,
+                                    "x": 370.21,
+                                    "y": 15.77
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": 370.21,
+                                    "y": 15.77
+                                },
+                                {
+                                    "duration": 6
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 308,
+                                    "tweenEasing": 0,
+                                    "y": 0.9
+                                },
+                                {
+                                    "duration": 5,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.1936,
+                                        0.1936,
+                                        0.410432,
+                                        0.410432,
+                                        0.6864,
+                                        0.6864,
+                                        1,
+                                        1
+                                    ],
+                                    "y": 0.9
+                                },
+                                {
+                                    "duration": 6
+                                }
+                            ]
+                        },
+                        {
+                            "name": "门左",
+                            "translateFrame": [
+                                {
+                                    "duration": 308,
+                                    "tweenEasing": 0,
+                                    "x": -374.16,
+                                    "y": 15.77
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": -374.16,
+                                    "y": 15.77
+                                },
+                                {
+                                    "duration": 6
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 308,
+                                    "tweenEasing": 0,
+                                    "y": 0.9
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "y": 0.9
+                                },
+                                {
+                                    "duration": 6
+                                }
+                            ]
+                        },
+                        {
+                            "name": "教学楼",
+                            "translateFrame": [
+                                {
+                                    "duration": 278,
+                                    "tweenEasing": 0,
+                                    "y": 1029.99
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "y": 1029.99
+                                },
+                                {
+                                    "duration": 16,
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.19795246200843936,
+                                        0.14896299132115012,
+                                        0.28237653658536593,
+                                        0.31643729824561406,
+                                        0.5726804878048781,
+                                        0.8923210526315791,
+                                        1,
+                                        1
+                                    ],
+                                    "y": 846.81
+                                },
+                                {
+                                    "duration": 18
+                                }
+                            ]
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "name": "root",
+                            "displayFrame": [
+                                {
+                                    "duration": 319
+                                }
+                            ]
+                        },
+                        {
+                            "name": "root1",
+                            "displayFrame": [
+                                {
+                                    "duration": 43,
+                                    "actions": [
+                                        {
+                                            "gotoAndPlay": "Sprite"
+                                        }
+                                    ]
+                                },
+                                {},
+                                {
+                                    "duration": 275,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "xinwen",
+                            "displayFrame": [
+                                {
+                                    "duration": 39,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 47,
+                                    "actions": [
+                                        {
+                                            "gotoAndPlay": "xinwen"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "actions": [
+                                        {
+                                            "gotoAndPlay": "xinwen"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "duration": 232,
+                                    "value": -1
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 39
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 277
+                                }
+                            ]
+                        },
+                        {
+                            "name": "洪水",
+                            "displayFrame": [
+                                {
+                                    "duration": 101,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 7
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 5
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 4
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 3
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 2
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 1
+                                },
+                                {
+                                    "duration": 194
+                                }
+                            ]
+                        },
+                        {
+                            "name": "洪水1",
+                            "displayFrame": [
+                                {
+                                    "duration": 108,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 9
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 7
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 5
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 4
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 3
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 2
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 1
+                                },
+                                {
+                                    "duration": 184
+                                }
+                            ]
+                        },
+                        {
+                            "name": "破碎",
+                            "displayFrame": [
+                                {
+                                    "duration": 148,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 19
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 18
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 17
+                                },
+                                {
+                                    "duration": 10,
+                                    "value": 16
+                                },
+                                {
+                                    "value": 15
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 13
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 12
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 11
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 10
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 141,
+                                    "value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历一",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历七",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历三",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历九",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历二",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历五",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历八",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历六",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历四",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日历十",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "黑背景",
+                            "displayFrame": [
+                                {
+                                    "duration": 180,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 139
+                                }
+                            ]
+                        },
+                        {
+                            "name": "破碎1",
+                            "displayFrame": [
+                                {
+                                    "duration": 165,
+                                    "value": -1
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 13
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 12
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 11
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 10
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 141,
+                                    "value": 5
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 165
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 147,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "电视框",
+                            "displayFrame": [
+                                {
+                                    "duration": 144
+                                },
+                                {
+                                    "duration": 175,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "照片",
+                            "displayFrame": [
+                                {
+                                    "duration": 206
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 1
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 4
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 5
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 97,
+                                    "value": 9
+                                }
+                            ]
+                        },
+                        {
+                            "name": "日期",
+                            "displayFrame": [
+                                {
+                                    "duration": 205
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 1
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 2
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 5
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 7
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 97,
+                                    "value": 9
+                                }
+                            ]
+                        },
+                        {
+                            "name": "学校背景",
+                            "colorFrame": [
+                                {
+                                    "duration": 230,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 13,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 76
+                                }
+                            ]
+                        },
+                        {
+                            "name": "飘落",
+                            "displayFrame": [
+                                {
+                                    "duration": 240,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 23
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 22
+                                },
+                                {
+                                    "value": 21
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 20
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 19
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 18
+                                },
+                                {
+                                    "value": 17
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 16
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 15
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 13
+                                },
+                                {
+                                    "value": 12
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 11
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 10
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 7
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 5
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 3
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 2
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 1
+                                },
+                                {
+                                    "duration": 39
+                                }
+                            ]
+                        },
+                        {
+                            "name": "封城",
+                            "displayFrame": [
+                                {
+                                    "duration": 66,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 14,
+                                    "value": 8
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 7
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 6
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 5
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 4
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 3
+                                },
+                                {
+                                    "duration": 2,
+                                    "value": 2
+                                },
+                                {
+                                    "duration": 3,
+                                    "value": 1
+                                },
+                                {
+                                    "duration": 36
+                                },
+                                {
+                                    "duration": 187,
+                                    "value": -1
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 66
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 250
+                                }
+                            ]
+                        }
+                    ],
+                    "zOrder": {
+                        "frame": [
+                            {
+                                "duration": 319,
+                                "zOrder": [
+                                    21,
+                                    2,
+                                    25,
+                                    -16,
+                                    27,
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "newAnimation"
+                }
+            ],
+            "canvas": {
+                "width": 750,
+                "height": 1464
+            }
+        },
+        {
+            "type": "MovieClip",
+            "frameRate": 24,
+            "name": "MovieClip",
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "defaultActions": [
+                {}
+            ]
+        },
+        {
+            "type": "Sheet",
+            "frameRate": 8,
+            "name": "Sprite",
+            "aabb": {
+                "x": -311,
+                "y": -164,
+                "width": 622,
+                "height": 328
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 7,
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "跨年晚会_00007"
+                                },
+                                {
+                                    "name": "跨年晚会_00000"
+                                },
+                                {
+                                    "name": "跨年晚会_00001"
+                                },
+                                {
+                                    "name": "跨年晚会_00002"
+                                },
+                                {
+                                    "name": "跨年晚会_00003"
+                                },
+                                {
+                                    "name": "跨年晚会_00004"
+                                },
+                                {
+                                    "name": "跨年晚会_00005"
+                                },
+                                {
+                                    "name": "跨年晚会_00006"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 8,
+                    "playTimes": 0,
+                    "name": "Sprite",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "Sprite"
+                }
+            ]
+        },
+        {
+            "type": "Sheet",
+            "frameRate": 4,
+            "name": "xinwen",
+            "aabb": {
+                "x": -311,
+                "y": -164,
+                "width": 622,
+                "height": 328
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 3,
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "新闻联播0003"
+                                },
+                                {
+                                    "name": "新闻联播0000"
+                                },
+                                {
+                                    "name": "新闻联播0001"
+                                },
+                                {
+                                    "name": "新闻联播0002"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 4,
+                    "playTimes": 0,
+                    "name": "xinwen",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "xinwen"
+                }
+            ]
+        },
+        {
+            "type": "Sheet",
+            "frameRate": 10,
+            "name": "山火",
+            "aabb": {
+                "x": -517.5,
+                "y": -273,
+                "width": 1035,
+                "height": 546
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "山火0003"
+                                },
+                                {
+                                    "name": "山火0004"
+                                },
+                                {
+                                    "name": "山火0005"
+                                },
+                                {
+                                    "name": "山火0000"
+                                },
+                                {
+                                    "name": "山火0001"
+                                },
+                                {
+                                    "name": "山火0002"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 6,
+                    "playTimes": 0,
+                    "name": "山火",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "山火"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "frames": {
+        "line_17.png": {
+            "frame": {
+                "x": 1248,
+                "y": 1002,
+                "w": 484,
+                "h": 1000
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 234,
+                "y": 0,
+                "w": 484,
+                "h": 1000
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 1000
+            }
+        },
+        "line_18.png": {
+            "frame": {
+                "x": 1734,
+                "y": 1003,
+                "w": 203,
+                "h": 1000
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 103,
+                "y": 0,
+                "w": 203,
+                "h": 1000
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 1000
+            }
+        },
+        "line_19.png": {
+            "frame": {
+                "x": 693,
+                "y": 1,
+                "w": 523,
+                "h": 1000
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 104,
+                "y": 0,
+                "w": 523,
+                "h": 1000
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 1000
+            }
+        },
+        "line_20.png": {
+            "frame": {
+                "x": 1785,
+                "y": 1,
+                "w": 159,
+                "h": 1000
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 85,
+                "y": 0,
+                "w": 159,
+                "h": 1000
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 1000
+            }
+        },
+        "line_21.png": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 690,
+                "h": 1000
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 32,
+                "y": 0,
+                "w": 690,
+                "h": 1000
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 1000
+            }
+        },
+        "line_22.png": {
+            "frame": {
+                "x": 642,
+                "y": 1003,
+                "w": 604,
+                "h": 1000
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 29,
+                "y": 0,
+                "w": 604,
+                "h": 1000
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 1000
+            }
+        },
+        "line_23.png": {
+            "frame": {
+                "x": 1218,
+                "y": 1,
+                "w": 565,
+                "h": 999
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 57,
+                "y": 0,
+                "w": 565,
+                "h": 999
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 999
+            }
+        },
+        "line_24.png": {
+            "frame": {
+                "x": 1,
+                "y": 1003,
+                "w": 639,
+                "h": 1000
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 45,
+                "y": 0,
+                "w": 639,
+                "h": 1000
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 1000
+            }
+        }
+    },
+    "animations": {
+        "line": [
+            "line_17.png",
+            "line_18.png",
+            "line_19.png",
+            "line_20.png",
+            "line_21.png",
+            "line_22.png",
+            "line_23.png",
+            "line_24.png"
+        ]
+    },
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "line23_2.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1945,
+            "h": 2004
+        },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:4216dbe4bc85a3c827eab821246a44ec:50541675b269eccc000ce20a5d6e5927:9aff83c7fccec3c9402ba83940227d5e$"
+    }
+}

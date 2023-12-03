@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./style/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./style/main.css" rel="stylesheet" type="text/css" />
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/pixi.min.js"></script>
+    <script src="./js/Alloytouch.js"></script>
+    <script src="./js/TweenMax.min.js"></script>
+    <title>每个孩子都是父母眼中最亮的星星</title>
+</head>
+
+<body>
+    <div id="stage">
+
+    </div>
+
+</body>
+
+<script>
+    let Application = PIXI.Application,
+        loader = PIXI.loader,
+        resources = PIXI.loader.resources,
+        Sprite = PIXI.Sprite;
+
+    //Create a Pixi Application
+    let app = null
+
+
+    //总时间轴
+    let allTimeline = new TimelineMax({ paused: true })
+
+    PIXI.loader
+        .add("images/line11_3.json")
+        .add("images/line12_3.json")
+        .add("images/line21_2.json")
+        .add("images/line22_2.json")
+        .add("images/line23_2.json")
+        .load(setup);
+    function setup() {
+        console.log('done')
+
+        app = new PIXI.Application({
+            width: 750,
+            height: 1448
+        })
+
+        document.getElementById('stage').appendChild(app.view)
+
+        // 
+        let spriteGroupSences = new PIXI.Container()
+        spriteGroupSences.position.set(0, 0)
+        spriteGroupSences.name = 'spriteGroupSences'
+        app.stage.addChild(spriteGroupSences)
+
+        let sence1 = new PIXI.Container()
+        sence1.position.set(0, 0)
+        // sence1.pivot.set(1000, 621)
+        sence1.name = 'sence1'
+        let sence2 = new PIXI.Container()
+        sence2.position.set(0, 0)
+        sence2.name = 'sence2'
+        sence2.alpha = 1
+        let sence3 = new PIXI.Container()
+        sence3.position.set(0, 0)
+        sence3.name = 'sence3'
+        let sence4 = new PIXI.Container()
+        sence4.position.set(0, 0)
+        sence4.name = 'sence4'
+        spriteGroupSences.addChild(sence1)
+        spriteGroupSences.addChild(sence2)
+        spriteGroupSences.addChild(sence3)
+        spriteGroupSences.addChild(sence4)
+
+
+        // 图片加入到对应的精灵组
+        let id = PIXI.loader.resources["images/line11_3.json"].textures;
+        let count = 0
+        let yy = {
+            "line_0.png": 0,
+            "line_1.png": 1000,
+            "line_2.png": 2000,
+            "line_3.png": 3000,
+            "line_4.png": 4000,
+            "line_5.png": 5000,
+        }
+        for (let item of [
+            "line_0.png",
+            "line_1.png",
+            "line_2.png",
+            "line_3.png",
+            "line_4.png",
+            "line_5.png"
+        ]) {
+
+            let sprite = new Sprite(id[item]);
+            sprite.position.set(0, count)
+            count += 1000
+            sprite.name = 'sence1'
+            let sprites = app.stage.getChildByName('spriteGroupSences').getChildByName('sence1')
+            sprites.addChild(sprite)
+        }
+
+        // 图片加入到对应的精灵组
+        id = PIXI.loader.resources["images/line12_3.json"].textures;
+        for (let item of [
+            "line_6.png",
+            "line_7.png",
+            "line_8.png",
+            "line_9.png",
+            "line_10.png",
+            "line_11.png",
+            "line_12.png",
+            "line_13.png",
+            "line_14.png",
+            "line_15.png"
+        ]) {
+
+            let sprite = new Sprite(id[item]);
+            sprite.position.set(0, count)
+            sprite.name = 'sence2'
+            count += 1000
+            let sprites = app.stage.getChildByName('spriteGroupSences').getChildByName('sence2')
+            sprites.addChild(sprite)
+        }
+
+
+
+
+        let maxLong = -(16000)
+
+
+        //总时间轴
+    let allTimeline = new TimelineMax({ paused: true })
+
+
+        function touchAction() {
+            //seek progress
+            let alloyTouch = new AlloyTouch({
+                touch: 'body',
+                vertical: true,
+                maxSpeed: 0.8,
+                max: 0,
+                min: maxLong,
+                bindSelf: false,
+                initialValue: 0,
+                change: function (value) {
+                    if ((value <= 0) && (value > maxLong)) {
+                        let progress = value / maxLong
+                        console.log(value, progress)
+                        allTimeline.seek(progress)
+                        // animationPlay(progress)
+
+                    }
+                }
+            })
+        }
+
+        touchAction()
+        //子时间轴 TweenMax 
+        function tweenAction() {
+        let sences = app.stage.getChildByName('spriteGroupSences')
+        let sencesTimeline = new TimelineMax({ delay: 0 })
+        let sencesTween = TweenMax.to(sences.position, 1, { y: maxLong })
+        sencesTimeline.add(sencesTween, 0)
+        allTimeline.add(sencesTimeline, 0)
+
+
+            //星星显现 spriteGroupSences/sence1/p1Star
+            // let sence1 = app.stage.getChildByName('spriteGroupSences').getChildByName('sence1')
+
+            // let sence1StartTime = -15 / maxLong
+            // let sence1TimeDuringTime = -1500 / maxLong
+            // let starTimleline = new TimelineMax({ delay: sence1StartTime })
+            // let sence1Tween = TweenMax.to(sence1, sence1TimeDuringTime, { alpha: 1 })
+            // starTimleline.add(sence1Tween, 0)
+            // allTimeline.add(starTimleline, 0)
+
+
+            // let scence2 = app.stage.getChildByName('spriteGroupSences').getChildByName('sence2')
+
+            // let scence2StartTime = -150 / maxLong
+            // let scence2DuringTime = -400 / maxLong
+            // let scence2Timleline = new TimelineMax({ delay: scence2StartTime })
+            // let scence2Tween = TweenMax.to(scence2, scence2DuringTime, { alpha: 1 })
+            // scence2Timleline.add(scence2Tween, 0)
+            // allTimeline.add(scence2Timleline, 0)
+
+
+
+        }
+
+        tweenAction()
+
+
+        function animationPlay(progress) {
+            //孩子蹒跚学走路 spriteGroupSences/sence2/p2Child
+            //图片数组 p2Arr2
+            let childStepStartTime = -900 / maxLong
+            let childDuringTime = -1300 / maxLong
+
+            if (progress >= childStepStartTime) {
+                let childNum = 6
+                let childIndex = Math.floor((progress - childStepStartTime) / childDuringTime * childNum)
+                //console.log('childIndex:'+childIndex)
+                if ((childIndex < childNum) && (childIndex >= 0)) {
+                    app.stage.getChildByName('spriteGroupSences').getChildByName('sence1').getChildByName('p2Child').texture = new PIXI.Texture.fromImage(p2Arr2[childIndex])
+                }
+            }
+
+
+
+        }
+    }
+</script>
+
+</html>

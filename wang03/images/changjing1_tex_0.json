@@ -1,0 +1,115 @@
+{
+    "width": 2048,
+    "imagePath": "changjing1_tex_0.png",
+    "height": 2048,
+    "name": "changjing1",
+    "SubTexture": [
+        {
+            "frameY": -1106,
+            "y": 1872,
+            "frameWidth": 515,
+            "frameX": -207,
+            "frameHeight": 1324,
+            "width": 148,
+            "height": 148,
+            "name": "太阳轨迹0016",
+            "x": 1786
+        },
+        {
+            "frameY": -105,
+            "y": 1872,
+            "frameWidth": 515,
+            "frameX": -157,
+            "frameHeight": 1324,
+            "width": 100,
+            "height": 113,
+            "name": "太阳轨迹0003",
+            "x": 1936
+        },
+        {
+            "frameY": -40,
+            "y": 1872,
+            "frameWidth": 515,
+            "frameX": -57,
+            "frameHeight": 1324,
+            "width": 153,
+            "height": 148,
+            "name": "太阳轨迹0001",
+            "x": 1631
+        },
+        {
+            "width": 666,
+            "y": 1530,
+            "height": 340,
+            "name": "云八",
+            "x": 1338
+        },
+        {
+            "width": 537,
+            "y": 1857,
+            "height": 167,
+            "name": "云十",
+            "x": 566
+        },
+        {
+            "width": 14,
+            "y": 2022,
+            "height": 14,
+            "name": "椭圆 3",
+            "x": 1631
+        },
+        {
+            "width": 1200,
+            "y": 2,
+            "height": 1464,
+            "name": "窗",
+            "x": 2
+        },
+        {
+            "width": 524,
+            "y": 1872,
+            "height": 150,
+            "name": "云十二",
+            "x": 1105
+        },
+        {
+            "width": 562,
+            "y": 1857,
+            "height": 174,
+            "name": "云十四",
+            "x": 2
+        },
+        {
+            "frameY": -293,
+            "y": 1530,
+            "frameWidth": 1347,
+            "frameX": 0,
+            "frameHeight": 693,
+            "width": 1334,
+            "height": 325,
+            "name": "地面_00000",
+            "x": 2
+        },
+        {
+            "width": 829,
+            "y": 796,
+            "height": 732,
+            "name": "楼梯",
+            "x": 1204
+        },
+        {
+            "width": 805,
+            "y": 2,
+            "height": 792,
+            "name": "饭桌",
+            "x": 1204
+        },
+        {
+            "width": 100,
+            "y": 1987,
+            "height": 50,
+            "name": "封边",
+            "x": 1936
+        }
+    ]
+}

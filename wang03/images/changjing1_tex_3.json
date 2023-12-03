@@ -1,0 +1,201 @@
+{
+    "width": 2048,
+    "imagePath": "changjing1_tex_3.png",
+    "height": 2048,
+    "name": "changjing1",
+    "SubTexture": [
+        {
+            "width": 188,
+            "y": 1678,
+            "height": 274,
+            "name": "窗外",
+            "x": 378
+        },
+        {
+            "frameY": -615,
+            "y": 1360,
+            "frameWidth": 515,
+            "frameX": -225,
+            "frameHeight": 1324,
+            "width": 123,
+            "height": 506,
+            "name": "太阳轨迹0011",
+            "x": 591
+        },
+        {
+            "frameY": -784,
+            "y": 1341,
+            "frameWidth": 515,
+            "frameX": -227,
+            "frameHeight": 1324,
+            "width": 99,
+            "height": 443,
+            "name": "太阳轨迹0014",
+            "x": 716
+        },
+        {
+            "frameY": -137,
+            "y": 484,
+            "frameWidth": 515,
+            "frameX": -232,
+            "frameHeight": 1324,
+            "width": 112,
+            "height": 393,
+            "name": "太阳轨迹0006",
+            "x": 666
+        },
+        {
+            "frameY": -310,
+            "y": 1360,
+            "frameWidth": 515,
+            "frameX": -206,
+            "frameHeight": 1324,
+            "width": 156,
+            "height": 458,
+            "name": "太阳轨迹0008",
+            "x": 220
+        },
+        {
+            "frameY": -783,
+            "y": 879,
+            "frameWidth": 515,
+            "frameX": -217,
+            "frameHeight": 1324,
+            "width": 127,
+            "height": 463,
+            "name": "太阳轨迹0015",
+            "x": 461
+        },
+        {
+            "frameY": -238,
+            "y": 879,
+            "frameWidth": 515,
+            "frameX": -215,
+            "frameHeight": 1324,
+            "width": 127,
+            "height": 460,
+            "name": "太阳轨迹0007",
+            "x": 590
+        },
+        {
+            "width": 458,
+            "y": 295,
+            "height": 187,
+            "name": "云五",
+            "x": 264
+        },
+        {
+            "width": 263,
+            "y": 1820,
+            "height": 202,
+            "name": "小桌子",
+            "x": 2
+        },
+        {
+            "width": 457,
+            "y": 1165,
+            "height": 193,
+            "name": "沙发 拷贝",
+            "x": 2
+        },
+        {
+            "frameY": -114,
+            "y": 747,
+            "frameWidth": 1058,
+            "frameX": -371,
+            "frameHeight": 505,
+            "width": 222,
+            "height": 391,
+            "name": "xiaoren0011",
+            "x": 224
+        },
+        {
+            "frameY": -126,
+            "y": 2,
+            "frameWidth": 1058,
+            "frameX": -328,
+            "frameHeight": 505,
+            "width": 258,
+            "height": 379,
+            "name": "xiaoren0008",
+            "x": 2
+        },
+        {
+            "frameY": -112,
+            "y": 484,
+            "frameWidth": 1058,
+            "frameX": -383,
+            "frameHeight": 505,
+            "width": 216,
+            "height": 393,
+            "name": "xiaoren0012",
+            "x": 448
+        },
+        {
+            "frameY": -143,
+            "y": 383,
+            "frameWidth": 1058,
+            "frameX": -328,
+            "frameHeight": 505,
+            "width": 260,
+            "height": 362,
+            "name": "xiaoren0009",
+            "x": 2
+        },
+        {
+            "frameY": -89,
+            "y": 747,
+            "frameWidth": 1058,
+            "frameX": -354,
+            "frameHeight": 505,
+            "width": 220,
+            "height": 416,
+            "name": "xiaoren0006",
+            "x": 2
+        },
+        {
+            "frameY": -134,
+            "y": 1360,
+            "frameWidth": 1058,
+            "frameX": -375,
+            "frameHeight": 505,
+            "width": 216,
+            "height": 371,
+            "name": "xiaoren0010",
+            "x": 2
+        },
+        {
+            "frameY": -465,
+            "y": 2,
+            "frameWidth": 957,
+            "frameX": -378,
+            "frameHeight": 1269,
+            "width": 321,
+            "height": 233,
+            "name": "鸟fei0007",
+            "x": 576
+        },
+        {
+            "frameY": -904,
+            "y": 1360,
+            "frameWidth": 957,
+            "frameX": 0,
+            "frameHeight": 1269,
+            "width": 211,
+            "height": 316,
+            "name": "鸟fei0009",
+            "x": 378
+        },
+        {
+            "frameY": -656,
+            "y": 2,
+            "frameWidth": 957,
+            "frameX": -161,
+            "frameHeight": 1269,
+            "width": 312,
+            "height": 291,
+            "name": "鸟fei0008",
+            "x": 262
+        }
+    ]
+}

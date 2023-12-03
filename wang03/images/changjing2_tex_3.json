@@ -1,0 +1,130 @@
+{
+    "width": 2048,
+    "imagePath": "changjing2_tex_3.png",
+    "height": 2048,
+    "name": "changjing2",
+    "SubTexture": [
+        {
+            "width": 622,
+            "y": 1592,
+            "height": 328,
+            "name": "丰城_00004",
+            "x": 754
+        },
+        {
+            "frameY": -546,
+            "y": 1592,
+            "frameWidth": 750,
+            "frameX": 0,
+            "frameHeight": 1083,
+            "width": 750,
+            "height": 401,
+            "name": "洪水 0002",
+            "x": 2
+        },
+        {
+            "width": 375,
+            "y": 2,
+            "height": 732,
+            "name": "玻璃破碎0048",
+            "x": 1542
+        },
+        {
+            "width": 375,
+            "y": 736,
+            "height": 732,
+            "name": "玻璃破碎0057",
+            "x": 1542
+        },
+        {
+            "width": 768,
+            "y": 2,
+            "height": 793,
+            "name": "高考变婚礼0009",
+            "x": 2
+        },
+        {
+            "width": 768,
+            "y": 2,
+            "height": 793,
+            "name": "高考变婚礼0001",
+            "x": 772
+        },
+        {
+            "width": 768,
+            "y": 797,
+            "height": 793,
+            "name": "高考变婚礼0005",
+            "x": 2
+        },
+        {
+            "width": 768,
+            "y": 797,
+            "height": 793,
+            "name": "高考变婚礼0004",
+            "x": 772
+        },
+        {
+            "frameY": 0,
+            "y": 1470,
+            "frameWidth": 328,
+            "frameX": -1,
+            "frameHeight": 110,
+            "width": 327,
+            "height": 110,
+            "name": "变日期0006",
+            "x": 1542
+        },
+        {
+            "frameY": -1,
+            "y": 1922,
+            "frameWidth": 328,
+            "frameX": 0,
+            "frameHeight": 110,
+            "width": 328,
+            "height": 108,
+            "name": "变日期0004",
+            "x": 1084
+        },
+        {
+            "frameY": 0,
+            "y": 1922,
+            "frameWidth": 328,
+            "frameX": 0,
+            "frameHeight": 110,
+            "width": 328,
+            "height": 109,
+            "name": "变日期0003",
+            "x": 754
+        },
+        {
+            "frameY": -1364,
+            "y": 1922,
+            "frameWidth": 750,
+            "frameX": -222,
+            "frameHeight": 1600,
+            "width": 246,
+            "height": 118,
+            "name": "学校飘落0063",
+            "x": 1414
+        },
+        {
+            "frameY": -518,
+            "y": 1922,
+            "frameWidth": 750,
+            "frameX": -322,
+            "frameHeight": 1600,
+            "width": 249,
+            "height": 112,
+            "name": "学校飘落0021",
+            "x": 1662
+        },
+        {
+            "width": 622,
+            "y": 1592,
+            "height": 328,
+            "name": "新闻联播0000",
+            "x": 1378
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "frames": {
+        "body.png": {
+            "frame": {
+                "x": 1120,
+                "y": 906,
+                "w": 608,
+                "h": 856
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 126,
+                "y": 150,
+                "w": 608,
+                "h": 856
+            },
+            "sourceSize": {
+                "w": 734,
+                "h": 1006
+            }
+        },
+        "hand1.png": {
+            "frame": {
+                "x": 820,
+                "y": 1296,
+                "w": 220,
+                "h": 302
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 6,
+                "y": 3,
+                "w": 220,
+                "h": 302
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 311
+            }
+        },
+        "hand_2.png": {
+            "frame": {
+                "x": 1202,
+                "y": 577,
+                "w": 327,
+                "h": 438
+            },
+            "rotated": true,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 327,
+                "h": 438
+            },
+            "sourceSize": {
+                "w": 327,
+                "h": 438
+            }
+        },
+        "light.png": {
+            "frame": {
+                "x": 1,
+                "y": 883,
+                "w": 1117,
+                "h": 411
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 1117,
+                "h": 411
+            },
+            "sourceSize": {
+                "w": 1117,
+                "h": 411
+            }
+        },
+        "virus_1.png": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 1199,
+                "h": 880
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 1199,
+                "h": 880
+            },
+            "sourceSize": {
+                "w": 1199,
+                "h": 880
+            }
+        },
+        "virus_1_top.png": {
+            "frame": {
+                "x": 1,
+                "y": 1296,
+                "w": 575,
+                "h": 817
+            },
+            "rotated": true,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 22,
+                "y": 0,
+                "w": 575,
+                "h": 817
+            },
+            "sourceSize": {
+                "w": 683,
+                "h": 880
+            }
+        },
+        "virus_2.png": {
+            "frame": {
+                "x": 1202,
+                "y": 1,
+                "w": 574,
+                "h": 550
+            },
+            "rotated": true,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 457,
+                "y": 72,
+                "w": 574,
+                "h": 550
+            },
+            "sourceSize": {
+                "w": 1031,
+                "h": 622
+            }
+        }
+    },
+    "animations": {
+        "hand": [
+            "hand1.png",
+            "hand_2.png"
+        ],
+        "virus": [
+            "virus_1.png",
+            "virus_2.png"
+        ]
+    },
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "hand.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1753,
+            "h": 1872
+        },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:9237d6caeb3c3f5837ab3219d65c1330:3671485620e306c831b49a88332d61cd:b2489f6b7d10447a0d6fee1c4a9f4924$"
+    }
+}

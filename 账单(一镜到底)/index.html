@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./style/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./style/main.css" rel="stylesheet" type="text/css" />
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/pixi.min.js"></script>
+    <script src="./js/Alloytouch.js"></script>
+    <script src="./js/TweenMax.min.js"></script>
+    <title>每个孩子都是父母眼中最亮的星星</title>
+    <style>
+        #stage1 {
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="stage1">
+
+    </div>
+
+</body>
+
+<script>
+    let Application = PIXI.Application,
+        loader = PIXI.loader,
+        resources = PIXI.loader.resources,
+        Sprite = PIXI.Sprite;
+
+    //Create a Pixi Application
+    let app = null
+
+
+
+    let imgs = [
+        'imgs/bg@1x_1.png',
+        'imgs/bg@1x_2.png',
+        'imgs/bg@1x_3.png',
+    ]
+    let width = document.getElementById('stage1').clientWidth
+    let height = document.getElementById('stage1').clientHeight
+    PIXI.loader
+        .add(imgs)
+        .load(setup);
+    function setup() {
+        console.log('done')
+
+        app = new PIXI.Application({
+            width: width,
+            height: height
+        })
+        // 生成的canvas渲染到dom上
+        document.getElementById('stage1').appendChild(app.view)
+        // 创建一个大舞台 
+        let spriteGroupSences = new PIXI.Container()
+        spriteGroupSences.position.set(0, 0)
+        spriteGroupSences.name = 'spriteGroupSences'
+        app.stage.addChild(spriteGroupSences)
+        // 创建三个分镜头的舞台
+        let sence1 = new PIXI.Container()
+        sence1.position.set(0, 0)
+        sence1.name = 'sence1'
+        let sence2 = new PIXI.Container()
+        sence2.position.set(0, 640)
+        sence2.name = 'sence2'
+        let sence3 = new PIXI.Container()
+        sence3.position.set(0, 640 * 2)
+        sence3.name = 'sence3'
+        spriteGroupSences.addChild(sence1)
+        spriteGroupSences.addChild(sence2)
+        spriteGroupSences.addChild(sence3)
+
+        // 分镜头图片加入到对应的分舞台
+        let img1 = new PIXI.Sprite.fromImage(imgs[0])
+        app.stage.getChildByName('spriteGroupSences').getChildByName(`sence1`).addChild(img1)
+        let img2 = new PIXI.Sprite.fromImage(imgs[1])
+        app.stage.getChildByName('spriteGroupSences').getChildByName(`sence2`).addChild(img2)
+        let img3 = new PIXI.Sprite.fromImage(imgs[2])
+        app.stage.getChildByName('spriteGroupSences').getChildByName(`sence3`).addChild(img3)
+
+
+        let maxLong = -(640 * 2)
+        //总时间轴
+        let allTimeline = new TimelineMax({ paused: true })
+        function touchAction() {
+            //seek progress
+            let alloyTouch = new AlloyTouch({
+                touch: 'body',
+                vertical: true,//控制动画水平/垂直方向的滑动
+                maxSpeed: 0.8,
+                max: 0,
+                min: maxLong,
+                bindSelf: false,
+                initialValue: 0,
+                change: function (value) {
+                    if ((value <= 0) && (value > maxLong)) {
+                        let progress = value / maxLong
+                        console.log(value, progress)
+                        allTimeline.seek(progress)
+                    }
+                }
+            })
+        }
+
+        touchAction()
+
+        //子时间轴 TweenMax 
+        function tweenAction() {
+            // 获取pixijs的舞台
+            let sences = app.stage.getChildByName('spriteGroupSences')
+            // 生成一个子时间轴，从时间轴为0时启动，delay范围从0-1，小数
+            let sencesTimeline = new TimelineMax({ delay: 0 })
+            // 建一个从当前属性到指定目标属性的TweenMax动画对象，y从0到 640*2 动画持续时间整个的时间轴长度(参与为1的含义，如果一般时间轴就是0.5)，
+            // 在滑动过程中，TweenMax会根据当前滑动比例，自动去更改sences.position的y属性，从而实现动画效果
+            console.log(sences.position)
+            let sencesTween = TweenMax.to(sences.position, 1, { y: maxLong })
+            // 动画加入子时间轴
+            sencesTimeline.add(sencesTween, 0)
+            // 子时间轴加入总时间轴
+            allTimeline.add(sencesTimeline, 0)
+        }
+
+        tweenAction()
+
+
+
+    }
+</script>
+
+</html>

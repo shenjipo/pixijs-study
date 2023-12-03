@@ -1,0 +1,163 @@
+{
+    "width": 2048,
+    "imagePath": "changjing2_tex_0.png",
+    "height": 2048,
+    "name": "changjing2",
+    "SubTexture": [
+        {
+            "frameY": -359,
+            "y": 2,
+            "frameWidth": 1175,
+            "frameX": -129,
+            "frameHeight": 1464,
+            "width": 916,
+            "height": 747,
+            "name": "电视",
+            "x": 684
+        },
+        {
+            "frameY": -25,
+            "y": 1122,
+            "frameWidth": 750,
+            "frameX": 0,
+            "frameHeight": 1083,
+            "width": 750,
+            "height": 922,
+            "name": "洪水 0006",
+            "x": 2
+        },
+        {
+            "frameY": -44,
+            "y": 751,
+            "frameWidth": 750,
+            "frameX": 0,
+            "frameHeight": 1083,
+            "width": 750,
+            "height": 903,
+            "name": "洪水 0005",
+            "x": 754
+        },
+        {
+            "frameY": -714,
+            "y": 2023,
+            "frameWidth": 456,
+            "frameX": -49,
+            "frameHeight": 733,
+            "width": 248,
+            "height": 19,
+            "name": "涨满 0000",
+            "x": 754
+        },
+        {
+            "frameY": -698,
+            "y": 1986,
+            "frameWidth": 456,
+            "frameX": -4,
+            "frameHeight": 733,
+            "width": 407,
+            "height": 35,
+            "name": "涨满 0001",
+            "x": 754
+        },
+        {
+            "frameY": -225,
+            "y": 1486,
+            "frameWidth": 456,
+            "frameX": 0,
+            "frameHeight": 733,
+            "width": 456,
+            "height": 508,
+            "name": "涨满 0006",
+            "x": 1506
+        },
+        {
+            "width": 456,
+            "y": 751,
+            "height": 733,
+            "name": "涨满 0008",
+            "x": 1506
+        },
+        {
+            "width": 375,
+            "y": 2,
+            "height": 732,
+            "name": "玻璃破碎0030",
+            "x": 1602
+        },
+        {
+            "width": 101,
+            "y": 1656,
+            "height": 326,
+            "name": "日历八",
+            "x": 1378
+        },
+        {
+            "width": 680,
+            "y": 2,
+            "height": 1118,
+            "name": "教学楼",
+            "x": 2
+        },
+        {
+            "width": 68,
+            "y": 736,
+            "height": 409,
+            "name": "门墙右后",
+            "x": 1964
+        },
+        {
+            "frameY": -1181,
+            "y": 1656,
+            "frameWidth": 750,
+            "frameX": -59,
+            "frameHeight": 1600,
+            "width": 23,
+            "height": 282,
+            "name": "门墙左后",
+            "x": 1481
+        },
+        {
+            "frameY": -35,
+            "y": 422,
+            "frameWidth": 59,
+            "frameX": 0,
+            "frameHeight": 436,
+            "width": 59,
+            "height": 277,
+            "name": "门墙左前",
+            "x": 1979
+        },
+        {
+            "width": 54,
+            "y": 2,
+            "height": 418,
+            "name": "门墙右前",
+            "x": 1979
+        },
+        {
+            "frameY": 0,
+            "y": 751,
+            "frameWidth": 750,
+            "frameX": -572,
+            "frameHeight": 1600,
+            "width": 62,
+            "height": 63,
+            "name": "学校飘落0000",
+            "x": 684
+        },
+        {
+            "width": 100,
+            "y": 1984,
+            "height": 50,
+            "name": "封边",
+            "x": 1378
+        },
+        {
+            "width": 622,
+            "y": 1656,
+            "height": 328,
+            "name": "跨年晚会_00000",
+            "x": 754
+        }
+    ]
+}
